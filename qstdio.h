@@ -1,5 +1,5 @@
-#ifndef QSTDOUT_H
-#define QSTDOUT_H
+#ifndef QSTDIO_H
+#define QSTDIO_H
 
 #include <QIODevice>
 
@@ -14,4 +14,4 @@ protected:
 	qint64 writeData(const char* data, qint64 len);
 };
 
-#endif // QSTDOUT_H
+#endif // QSTDIO_H
